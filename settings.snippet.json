@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 /opt/cc-bridge/cc_bridge.py hook session-start" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 /opt/cc-bridge/cc_bridge.py hook stop" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# cc-bridge runtime state (lives in ~/.cc-bridge, never commit)
+.cc-bridge/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
